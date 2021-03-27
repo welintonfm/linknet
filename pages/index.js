@@ -1,4 +1,3 @@
-import '../styles/styles.css'
 function Home(){
     return <div>Home</div>  
 }
