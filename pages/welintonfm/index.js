@@ -53,7 +53,7 @@ function Home(){
                     </div>
                     <img src='/img/Sukuna.png' style={otakushoStyle.sukuna} />
                 </div>
-                <p style={{marginLeft: '70px'}}><strong>Otakushô é um aplicativo para organização de Mangás.</strong></p>
+                <p style={otakushoStyle.legenda}><strong>Otakushô é um aplicativo para organização de Mangás.</strong></p>
             </div>
 
         </div>        
@@ -69,7 +69,7 @@ const personalStyle = {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#191919',
+        backgroundColor: '#191919'
     },
     personal: {
         display: 'flex',
@@ -77,7 +77,7 @@ const personalStyle = {
         alignItems: 'center',
         justifyContent: 'space-around',
         minWidth: '100%',
-        margin: '30px 0 10px 0'
+        margin: '20px 0 10px 0'
     },
     title: {
         display: 'flex',
@@ -147,6 +147,9 @@ const otakushoStyle = {
         position: 'absolute',
         right: '0px',
         zIndex: '0'
+    },
+    legenda: {
+        alignSelf: 'center'
     }
 }
 
