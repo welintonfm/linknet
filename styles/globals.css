@@ -8,6 +8,7 @@ body {
     list-style: none;
     box-sizing: border-box;
     overflow-x: hidden;
+    background-color: #191919
 }
 
 a {

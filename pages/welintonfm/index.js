@@ -76,8 +76,8 @@ const personalStyle = {
         color: 'white',
         alignItems: 'center',
         justifyContent: 'space-around',
-        minWidth: '100%',
-        margin: '20px 0 10px 0'
+        margin: '20px 0 10px 0', 
+        maxWidth: '400px'
     },
     title: {
         display: 'flex',
@@ -124,7 +124,7 @@ const otakushoStyle = {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-        alignItems: 'start',
+        alignItems: 'center',
         color: '#fff',
         backgroundImage: `url('/img/bg.png')`,
         padding: '20px 0'
@@ -133,7 +133,8 @@ const otakushoStyle = {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        marginLeft: '30px'
+        marginLeft: '30px', 
+        maxWidth: '500px'
     },
     innerContent: {
         display: 'flex',
