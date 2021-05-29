@@ -28,7 +28,7 @@ function Home(){
                 <div style={teionStyle.content}>
                     <img src='/img/uelito.png' />
                     <div style={teionStyle.innerContent}>
-                        <img src='/img/horizontal branco.png'/>
+                        <a href="https://teiongames.com"><img src='/img/horizontal branco.png'/></a>
                         <Button style='teion' title='Confira o Site da Teion!' link={process.env.TEION_WEB}/>
                         <ul>
                             <SocialIcon link={process.env.TEION_FB} style='teion' type='facebook'/>
@@ -37,13 +37,13 @@ function Home(){
                         </ul>
                     </div>
                 </div>
-                <p><strong>Teion Games é uma desenvolvedora de jogos indie.</strong></p>
+                <p><strong><a href="https://teiongames.com">Teion Games</a> é uma desenvolvedora de jogos indie.</strong></p>
             </div>
 
             <div style={otakushoStyle.container}>
                 <div style={otakushoStyle.content}>
                     <div style={otakushoStyle.innerContent}>
-                        <img src='/img/Logo_1.png' />
+                        <a href="https://otakusho.com"><img src='/img/Logo_1.png' /></a>
                         <Button style='otakusho' title='Confira o Site do Otakushô!' link={process.env.OTAKUSHO_WEB}/>
                         <ul>
                             <SocialIcon link={process.env.OTAKUSHO_FB} style='otakusho' type='facebook'/>
@@ -53,7 +53,7 @@ function Home(){
                     </div>
                     <img src='/img/Sukuna.png' style={otakushoStyle.sukuna} />
                 </div>
-                <p style={otakushoStyle.legenda}><strong>Otakushô é um aplicativo para organização de Mangás.</strong></p>
+                <p style={otakushoStyle.legenda}><strong><a href="https://otakusho.com">Otakushô</a> é um aplicativo para organização de Mangás.</strong></p>
             </div>
 
         </div>        
@@ -81,14 +81,13 @@ const personalStyle = {
     },
     title: {
         display: 'flex',
-        flexDirection: 'column',
-        maxWidth: '50vw'
+        flexDirection: 'column'
     },
     profilePic: {
         width: '104px',
         height: '104px',
         borderRadius: '50%',
-        margin: '0 5vw',
+        margin: '0 20px',
         border: '2px solid white'
     },
     homeIcons: {

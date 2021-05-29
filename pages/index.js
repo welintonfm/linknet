@@ -8,7 +8,7 @@ function Home(){
             <div style={teionStyle.container}>
                 <div style={teionStyle.content}>
                     <div style={teionStyle.innerContent}>
-                        <img src='/img/horizontal branco.png'/>
+                    <a href="https://teiongames.com"><img src='/img/horizontal branco.png'/></a>
                         <Button style='teion' title='Jogue o Zero/Zero' link={process.env.TEION_ZEROZERO}/>
                         <Button style='teion' title='Acesse o Blog da Teion!' link={process.env.TEION_BLOG}/>
                         <Button style='teion' title='Confira o Site da Teion!' link={process.env.TEION_WEB}/>
@@ -19,7 +19,7 @@ function Home(){
                         </ul>
                     </div>
                 </div>
-                <p><strong>Teion Games é uma desenvolvedora de jogos indie.</strong></p>
+                <p><strong><a href="https://teiongames.com">Teion Games</a> é uma desenvolvedora de jogos indie.</strong></p>
             </div>
 
         </div>            

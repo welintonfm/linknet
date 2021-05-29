@@ -30,7 +30,8 @@ const teionStyle = {
     fontSize: '18px',
     fontWeight: '700',
     color: 'white',
-    margin: '15px 0'
+    margin: '15px 0',
+    cursor: 'pointer'
 }
 
 const otakushoStyle = {
@@ -43,5 +44,6 @@ const otakushoStyle = {
     fontSize: '18px',
     fontWeight: '700',
     color: 'white',
-    margin: '10px 0'
+    margin: '10px 0',
+    cursor: 'pointer'
 }

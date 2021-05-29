@@ -69,7 +69,8 @@ const personalStyle = {
     justifyContent: 'center',
     textAlign: 'center',
     marginRight: '20px',
-    lineHeight: '20px'    
+    lineHeight: '20px',
+    cursor: 'pointer'    
 }
 
 const teionStyle = {
@@ -87,7 +88,8 @@ const teionStyle = {
     textAlign: 'center',
     marginRight: '20px',
     lineHeight: '20px',
-    backgroundColor: '#252850'     
+    backgroundColor: '#252850',
+    cursor: 'pointer'     
 }
 
 const otakushoStyle = {
@@ -105,5 +107,6 @@ const otakushoStyle = {
     backgroundColor: '#4D96FF',
     boxShadow: '1px 1px 0px 2px rgba(0,0,0,0.6)',
     marginRight: '20px',
-    lineHeight: '20px'
+    lineHeight: '20px',
+    cursor: 'pointer'
 }
